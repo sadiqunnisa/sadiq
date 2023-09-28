@@ -1,0 +1,84 @@
+body{
+    background-color: aquamarine;
+    background-image: url(../images/utku-ozen-theutkuozen-GSQUZegIJpQ-unsplash\ \(1\).jpg);
+    background-size: cover;
+   
+}
+
+.signup-box{
+    width:360px;
+    /* height: 620px; */
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+
+.login-box{
+    width: 360px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    /* display: inline-block; */
+    /* display: flex; */
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+form input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none; 
+}
+
+
+button{
+    width: 309px;
+    height: 35px;
+    margin-top: 20px;
+    border:none;
+    background-color: antiquewhite;
+    color: rgb(218, 164, 164);
+    font-size: 18px;
+}
+
+
+button:hover{
+    background-color: dimgray;
+    color: cornflowerblue;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2{
+    text-align: center;
+    color: rgb(143, 123, 123);
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para-2 a{
+    color: rgb(255, 0, 0);
+}

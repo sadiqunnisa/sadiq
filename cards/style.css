@@ -1,0 +1,41 @@
+.main{
+    margin: 20px;
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.card{
+    width: 23%;
+    min-width: 200px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    padding: 2px;
+    border-radius: 2px;
+    
+}
+
+.image {
+    width: 100%;
+}
+
+.content{
+    display:inline-block;
+    color: rosybrown;
+}
+
+  /* @media screen and (min-width: 200px) and (max-width:900px){
+    .card{
+      flex: 100%;
+      max-width: 100%;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  } */
+  
+    
+  
