@@ -1,0 +1,12 @@
+git add .
+
+[ENTER]
+
+
+git commit -m "put some message here"
+
+
+[ENTER]
+
+
+git push -u origin main
