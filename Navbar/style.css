@@ -1,0 +1,157 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/sunrise-king-HIctpU2PA8E-unsplash.jpg);
+    background-size: 100vw 150vh;
+    background-repeat:no-repeat;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 80px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-style: double;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 100;
+    
+}
+
+.navbar::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    /* background-color: black;
+    backdrop-filter: blur(50px); */
+    background:rgba(0 ,0,0,.1);
+    backdrop-filter: blur(50px);
+    z-index: -1;
+
+}
+    
+
+#logo{
+    /* min-width: 200px; */
+    color: rgb(0, 128, 255);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#logo:hover{
+    color: rgb(212, 232, 232);
+}
+
+.nav2{
+    display: flex;
+    /* gap:150px;   */
+    flex-direction: row;
+    justify-content: space-between; 
+    gap: 5px;
+    align-items: center;
+    
+}
+
+
+a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border: 10px;
+}
+a:hover{
+    background-color: rgb(148, 107, 30);
+    transition: all 1s ease-in-out;
+}
+
+#input{
+        height: 35px;
+}
+
+
+button{
+    background-color: rgb(206, 92, 26);
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button:hover{
+    background-color:wheat;
+    cursor: pointer;
+    
+}
+#check{
+    display: none;
+}
+
+
+.icons{
+    position: absolute;
+    right: 5px;
+    font-size: 30px;
+    color: rgb(155, 11, 124);
+    display: none;
+    cursor: pointer;
+
+}
+
+@media(max-width:700px){
+    .icons{
+        display: block;
+    }
+
+    #check:checked~.icons #menu-icon{
+        display: none;
+    }
+    .icons #close-icon{
+        display: none;
+    }
+    #check:checked~.icons #close-icon{
+        display: block;
+    }
+    .nav2{
+        position: absolute;
+        top: 76px;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background:rgba(0 ,0,0,.1);
+        backdrop-filter: blur(50px);
+        display: flex;
+        box-shadow: 0 .5rem 1rem;
+        overflow: hidden;
+        transition: 0.3s ease;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #check:checked ~ .nav2{
+        height: 200px;
+    }
+
+    
+     
+}
+
+    
+    
+     
+
+
+

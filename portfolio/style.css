@@ -1,0 +1,31 @@
+.maincontainer{
+  width: 80%;
+  margin:"auto";
+ margin-left:50px;
+}
+
+
+
+
+.name {
+  font-size: large;
+  color: darkblue;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 70px;
+}
+.address {
+  color: aqua;
+  font-weight: 500;
+  font-style: initial;
+  text-transform: initial;
+  text-align: center;
+  margin-left: 70px;
+}
+.info {
+  color: darkblue;
+  text-transform: capitalize;
+  margin-left: 70px;
+}
